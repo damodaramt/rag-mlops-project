@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+
+.env
+.env.*
+
+vectorstore/
+*.log
+
+*.yaml.bak
+
+rag_commands.txt
+env
+*.env

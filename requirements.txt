@@ -1,0 +1,16 @@
+fastapi==0.135.2
+uvicorn==0.42.0
+
+langchain==0.2.14
+langchain-openai==0.1.25
+langchain-community==0.2.7
+
+faiss-cpu==1.13.2
+
+pypdf==6.9.2
+
+sqlalchemy==2.0.30
+psycopg2-binary==2.9.9
+
+python-dotenv==1.0.1
+requests==2.33.1

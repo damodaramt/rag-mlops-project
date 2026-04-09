@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rag-db
+
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rag-db
+
+  template:
+    metadata:
+      labels:
+        app: rag-db
+
+    spec:
+      containers:
+        - name: postgres
+          image: postgres:14
+          env:
+            - name: POSTGRES_USER
+              value: postgres
+            - name: POSTGRES_PASSWORD
+              value: postgres
+            - name: POSTGRES_DB
+              value: rag_db
+          ports:
+            - containerPort: 5432
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: db   # 🔥 IMPORTANT
+
+spec:
+  selector:
+    app: rag-db
+
+  ports:
+    - port: 5432
+      targetPort: 5432

@@ -1,0 +1,881 @@
+2026-04-09 11:23:53 sudo apt update
+2026-04-09 11:23:53 sudo apt install python3-venv -y
+2026-04-09 11:23:53 sudo passwd ashok_siva6363
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 sudo apt install python3-venv -y
+2026-04-09 11:23:53 sudo usermod -aG sudo ashok_siva6363
+2026-04-09 11:23:53 python3 -m venv venv
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 pwd
+2026-04-09 11:23:53 pip install fastapi uvicorn langchain faiss-cpu pypdf sentence-transformers
+2026-04-09 11:23:53 pip freeze > requirements.txt
+2026-04-09 11:23:53 vi app/utils/loader.py
+2026-04-09 11:23:53 cat vi app/utils/loader.py
+2026-04-09 11:23:53 vi app/services/embedding.py
+2026-04-09 11:23:53 ls
+2026-04-09 11:23:53 cat vi app/services/embedding.py
+2026-04-09 11:23:53 vi app/services/rag_pipeline.py
+2026-04-09 11:23:53 vi app/routes/query.py
+2026-04-09 11:23:53 vi app/main.py
+2026-04-09 11:23:53 uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 pip install langchain-community
+2026-04-09 11:23:53 pip install fastapi uvicorn langchain faiss-cpu pypdf sentence-transformers langchain-community
+2026-04-09 11:23:53 which uvicorn
+2026-04-09 11:23:53 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 lsof -i:8000
+2026-04-09 11:23:53 kill -9 <PID>
+2026-04-09 11:23:53 lsof -i:8000
+2026-04-09 11:23:53 sudo lsof -i:8000
+2026-04-09 11:23:53 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 pwd
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 mlops-rag-project/data/pdfs/
+2026-04-09 11:23:53 ls data
+2026-04-09 11:23:53 ls data/pdfs
+2026-04-09 11:23:53 cd data/pdfs
+2026-04-09 11:23:53 pwd
+2026-04-09 11:23:53 pwd
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 vi app/services/rag_pipeline.py
+2026-04-09 11:23:53 vi app/services/embedding.py
+2026-04-09 11:23:53 vi app/utils/loader.py
+2026-04-09 11:23:53 uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 mlops-rag-project/data/pdfs/
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd ~/.ssh
+2026-04-09 11:23:53 vi authorized_keys
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd ..
+2026-04-09 11:23:53 ssh ubuntu@IP
+2026-04-09 11:23:53 ssh ashok_siva6363@IP
+2026-04-09 11:23:53 ssh ubuntu@35.244.60.62
+2026-04-09 11:23:53 ssh -i yourkey.pem ubuntu@35.244.60.62
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd ~/.ssh
+2026-04-09 11:23:53 vi authorized_keys
+2026-04-09 11:23:53 cat vi authorized_keys
+2026-04-09 11:23:53 chmod 700 ~/.ssh
+2026-04-09 11:23:53 chmod 600 ~/.ssh/authorized_keys
+2026-04-09 11:23:53 cat authorized_keys
+2026-04-09 11:23:53 vi authorized_keys
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 cd ~/mlops-rag-project
+2026-04-09 11:23:53 python
+2026-04-09 11:23:53 python3
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 pip install -r requirements.txt
+2026-04-09 11:23:53 pip install langchain langchain-community faiss-cpu pypdf
+2026-04-09 11:23:53 python3
+2026-04-09 11:23:53 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd data
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd pdfs
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 vi app/services/rag_pipeline.py
+2026-04-09 11:23:53 pip install openai langchain-openai
+2026-04-09 11:23:53 sudo pip install openai langchain-openai
+2026-04-09 11:23:53 sudo pip3 install openai langchain-openai
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 sudo pip3 install openai langchain-openai
+2026-04-09 11:23:53 sudo pip install openai langchain-openai
+2026-04-09 11:23:53 pip install openai langchain-openai
+2026-04-09 11:23:53 pip list | grep openai
+2026-04-09 11:23:53 python3 -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 vi app/services/rag_pipeline.py
+2026-04-09 11:23:53 vi app/routes/query.py
+2026-04-09 11:23:53 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 pip install --upgrade langchain langchain-community langchain-openai
+2026-04-09 11:23:53 pip list | grep langchain
+2026-04-09 11:23:53 vi app/services/rag_pipeline.py
+2026-04-09 11:23:53 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 pip uninstall langchain langchain-community langchain-openai -y
+2026-04-09 11:23:53 pip install langchain==0.2.10 langchain-community==0.2.10 langchain-openai
+2026-04-09 11:23:53 pip list | grep langchain
+2026-04-09 11:23:53 pip uninstall langchain-core langchain-classic langchain-text-splitters -y
+2026-04-09 11:23:53 pip install langchain==0.2.10 langchain-community==0.2.10 langchain-openai==0.1.25
+2026-04-09 11:23:53 pip list | grep langchain
+2026-04-09 11:23:53 pip uninstall langchain-prebuilt -y
+2026-04-09 11:23:53 pip uninstall langchain-core langchain-text-splitters -y
+2026-04-09 11:23:53 pip install langchain==0.2.10 langchain-community==0.2.10 langchain-openai==0.1.25
+2026-04-09 11:23:53 rm -rf venv
+2026-04-09 11:23:53 python3 -m venv venv
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 rm -rf venv
+2026-04-09 11:23:53 sudo apt update
+2026-04-09 11:23:53 sudo apt install python3-venv -y
+2026-04-09 11:23:53 python3 -m venv venv
+2026-04-09 11:23:53 ls venv
+2026-04-09 11:23:53 ls -a venv
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 pip --version
+2026-04-09 11:23:53 pip3 --version
+2026-04-09 11:23:53 sudo apt update
+2026-04-09 11:23:53 sudo apt install python3-full python3-venv python3-pip -y
+2026-04-09 11:23:53 which python3
+2026-04-09 11:23:53 python3 --version
+2026-04-09 11:23:53 deactivate
+2026-04-09 11:23:53 rm -rf venv
+2026-04-09 11:23:53 which python3
+2026-04-09 11:23:53 python3 --version
+2026-04-09 11:23:53 python3 -m venv venv
+2026-04-09 11:23:53 ls venv/bin
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 which python3
+2026-04-09 11:23:53 pip install --upgrade pip
+2026-04-09 11:23:53 pip install langchain==0.2.10 langchain-community==0.2.10 langchain-openai==0.1.25 faiss-cpu fastapi uvicorn pypdf sentence-transformers
+2026-04-09 11:23:53 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 rm -rf vectorstore/faiss_db
+2026-04-09 11:23:53 python3
+2026-04-09 11:23:53 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 vi app/services/rag_pipeline.py
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 exit
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 vi app/utils/loader.py
+2026-04-09 11:23:53 rm -rf vectorstore/faiss_db
+2026-04-09 11:23:53 python3
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 pip install langchain==0.2.10 langchain-community==0.2.10 langchain-openai==0.1.25 faiss-cpu pypdf sentence-transformers
+2026-04-09 11:23:53 pip list | grep langchain
+2026-04-09 11:23:53 python3
+2026-04-09 11:23:53 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 source ~/.bashrc
+2026-04-09 11:23:53 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 python3
+2026-04-09 11:23:53 rm -rf vectorstore/faiss_db
+2026-04-09 11:23:53 python3
+2026-04-09 11:23:53 rm -rf vectorstore/faiss_db
+2026-04-09 11:23:53 python3
+2026-04-09 11:23:53 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 vi app/services/rag_pipeline.py
+2026-04-09 11:23:53 cat app/services/rag_pipeline.py
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd data/pdfs
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 vi app/routes/query.py
+2026-04-09 11:23:53 vi app/services/rag_pipeline.py
+2026-04-09 11:23:53 cat app/services/rag_pipeline.py
+2026-04-09 11:23:53 vi app/services/rag_pipeline.py
+2026-04-09 11:23:53 vi app/routes/query.py
+2026-04-09 11:23:53 vi app/services/rag_pipeline.py
+2026-04-09 11:23:53 vi app/routes/query.py
+2026-04-09 11:23:53 sudo shutdown now
+2026-04-09 11:23:53 sudo poweroff
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd mlops-reg-project/
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 pwd
+2026-04-09 11:23:53 python3
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 sudo apt update
+2026-04-09 11:23:53 sudo apt install postgresql postgresql-contrib -y
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 exit
+2026-04-09 11:23:53 ls
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 ls
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 ls
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 sudo apt update
+2026-04-09 11:23:53 sudo apt install postgresql postgresql-contrib -y
+2026-04-09 11:23:53 sudo service postgresql start
+2026-04-09 11:23:53 sudo -i -u postgres
+2026-04-09 11:23:53 psql
+2026-04-09 11:23:53 psql -U rag_user -d rag_db -h localhost -W
+2026-04-09 11:23:53 vi app/services/db.py
+2026-04-09 11:23:53 vi app/services/rag_pipeline.py
+2026-04-09 11:23:53 cat app/services/rag_pipeline.py
+2026-04-09 11:23:53 vi app/services/rag_pipeline.py
+2026-04-09 11:23:53 vi app/routes/query.py
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 curl -X POST http://127.0.0.1:8000/query -H "Content-Type: application/json" -d '{"question":"Explain the document"}'
+2026-04-09 11:23:53 vi app/static/index.html
+2026-04-09 11:23:53 vi app/services/embedding.py
+2026-04-09 11:23:53 vi app/main.py
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd data
+2026-04-09 11:23:53 cd pdfs
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd ..
+2026-04-09 11:23:53 vi app/services/embedding.py
+2026-04-09 11:23:53 vi app/services/rag_pipeline.py
+2026-04-09 11:23:53 cat app/services/rag_pipeline.py
+2026-04-09 11:23:53 vi app/services/rag_pipeline.py
+2026-04-09 11:23:53 vi app/services/embedding.py
+2026-04-09 11:23:53 vi app/routes/query.py
+2026-04-09 11:23:53 cat app/routes/query.py
+2026-04-09 11:23:53 vi app/routes/query.py
+2026-04-09 11:23:53 vi app/static/index.html
+2026-04-09 11:23:53 docker compose down
+2026-04-09 11:23:53 docker compose up --build
+2026-04-09 11:23:53 cd data/pgfs
+2026-04-09 11:23:53 cd data/pdfs
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 vi app/routes/query.py
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 curl -X POST http://localhost:8000/query -H "Content-Type: application/json" -d '{"question":"Explain the document"}'
+2026-04-09 11:23:53 cd ~/mlops-rag-project
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 pip install psycopg2-binary
+2026-04-09 11:23:53 pip list | grep psycopg2
+2026-04-09 11:23:53 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 sudo docker-compose down
+2026-04-09 11:23:53 sudo docker-compose up --build
+2026-04-09 11:23:53 docker compose down
+2026-04-09 11:23:53 docker compose up --build
+2026-04-09 11:23:53 sudo apt install docker-compose-plugin -y
+2026-04-09 11:23:53 docker compose version
+2026-04-09 11:23:53 cd ~/mlops-rag-project
+2026-04-09 11:23:53 docker compose up --build
+2026-04-09 11:23:53 docker ps -a
+2026-04-09 11:23:53 sudo service postgresql stop
+2026-04-09 11:23:53 sudo docker-compose down
+2026-04-09 11:23:53 sudo docker-compose up --buil
+2026-04-09 11:23:53 sudo docker-compose down
+2026-04-09 11:23:53 sudo docker-compose up --build
+2026-04-09 11:23:53 docker-compose down
+2026-04-09 11:23:53 docker compose down
+2026-04-09 11:23:53 docker compose up --build
+2026-04-09 11:23:53 vi app/services/db.py
+2026-04-09 11:23:53 docker compose down
+2026-04-09 11:23:53 docker compose up --build
+2026-04-09 11:23:53 docker ps -a
+2026-04-09 11:23:53 docker compose down
+2026-04-09 11:23:53 docker compose up --build
+2026-04-09 11:23:53 docker ps -a
+2026-04-09 11:23:53 docker compose down
+2026-04-09 11:23:53 docker compose up --build
+2026-04-09 11:23:53 ls -
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 vi requirements.txt
+2026-04-09 11:23:53 cat requirements.txt
+2026-04-09 11:23:53 vi requirements.txt
+2026-04-09 11:23:53 cat requirements.txt
+2026-04-09 11:23:53 vi requirements.txt
+2026-04-09 11:23:53 cat requirements.txt
+2026-04-09 11:23:53 cd ~/mlops-rag-project
+2026-04-09 11:23:53 deactivate # if active
+2026-04-09 11:23:53 rm -rf venv
+2026-04-09 11:23:53 python3 -m venv venv
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 pip install -r requirements.txt
+2026-04-09 11:23:53 vi requirements.txt
+2026-04-09 11:23:53 deactivate
+2026-04-09 11:23:53 rm -rf venv
+2026-04-09 11:23:53 python3 -m venv venv
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 pip install -r requirements.txt
+2026-04-09 11:23:53 pip list | grep langchain
+2026-04-09 11:23:53 vi requirements.txt
+2026-04-09 11:23:53 deactivate
+2026-04-09 11:23:53 rm -rf venv
+2026-04-09 11:23:53 python3 -m venv venv
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 pip install -r requirements.txt
+2026-04-09 11:23:53 pip list | grep langchain
+2026-04-09 11:23:53 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 pip install langchain-community
+2026-04-09 11:23:53 pip list | grep langchain
+2026-04-09 11:23:53 deactivate
+2026-04-09 11:23:53 rm -rf venv
+2026-04-09 11:23:53 python3 -m venv venv
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 vi requirements.txt
+2026-04-09 11:23:53 pip install -r requirements.txt
+2026-04-09 11:23:53 pip list | grep langchain
+2026-04-09 11:23:53 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 vi app/services/embedding.py
+2026-04-09 11:23:53 vi ~/.bashrc
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 rm -rf vectorstore/faiss_db
+2026-04-09 11:23:53 python ingest.py
+2026-04-09 11:23:53 python3 ingest.py
+2026-04-09 11:23:53 vi app/utils/loader.py
+2026-04-09 11:23:53 vi ingest.py
+2026-04-09 11:23:53 vi app/services/rag_pipeline.py
+2026-04-09 11:23:53 cat app/services/rag_pipeline.py
+2026-04-09 11:23:53 vi app/services/rag_pipeline.py
+2026-04-09 11:23:53 rm -rf vectorstore/faiss_db
+2026-04-09 11:23:53 python ingest.py
+2026-04-09 11:23:53 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 vi app/main.py
+2026-04-09 11:23:53 vi app/static/index.html
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd app
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd ..
+2026-04-09 11:23:53 mkdir app/static
+2026-04-09 11:23:53 cd app
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd ..
+2026-04-09 11:23:53 vi app/static/index.html
+2026-04-09 11:23:53 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 vi app/static/index.html
+2026-04-09 11:23:53 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 vi docker/Dockerfile
+2026-04-09 11:23:53 vi docker-compose.yml
+2026-04-09 11:23:53 vi .env
+2026-04-09 11:23:53 docker-compose up --build
+2026-04-09 11:23:53 sudo docker-compose up --build
+2026-04-09 11:23:53 docker --version
+2026-04-09 11:23:53 sudo apt update
+2026-04-09 11:23:53 sudo apt upgrade -y
+2026-04-09 11:23:53 sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
+2026-04-09 11:23:53 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+2026-04-09 11:23:53 sudo add-apt-repository "deb [arch=$(dpkg --print-architecture)] https://download.docker.com/linux/ubuntu \
+2026-04-09 11:23:53 $(lsb_release -cs) \
+2026-04-09 11:23:53 stable"
+2026-04-09 11:23:53 sudo apt update
+2026-04-09 11:23:53 sudo apt install -y docker-ce docker-ce-cli containerd.io
+2026-04-09 11:23:53 docker --version
+2026-04-09 11:23:53 sudo systemctl start docker
+2026-04-09 11:23:53 sudo systemctl enable docker
+2026-04-09 11:23:53 sudo usermod -aG docker $USER
+2026-04-09 11:23:53 newgrp docker
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 vi app/services/rag_pipeline.py
+2026-04-09 11:23:53 cat app/services/rag_pipeline.py
+2026-04-09 11:23:53 vi app/services/rag_pipeline.py
+2026-04-09 11:23:53 rm -rf vectorstore/faiss_db
+2026-04-09 11:23:53 python ingest.py
+2026-04-09 11:23:53 uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 rm -rf vectorstore/faiss_db
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 rm -rf vectorstore/faiss_db
+2026-04-09 11:23:53 python ingest.py
+2026-04-09 11:23:53 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 pwd
+2026-04-09 11:23:53 sudo apt update
+2026-04-09 11:23:53 sudo apt install -y apt-transport-https ca-certificates curl
+2026-04-09 11:23:53 curl -fsSL https://pkgs.k8s.io/core:/stable:/v1.30/deb/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/kubernetes-apt-keyring.gpg
+2026-04-09 11:23:53 echo "deb [signed-by=/etc/apt/keyrings/kubernetes-apt-keyring.gpg] \
+2026-04-09 11:23:53 https://pkgs.k8s.io/core:/stable:/v1.30/deb/ /" | sudo tee /etc/apt/sources.list.d/kubernetes.list
+2026-04-09 11:23:53 sudo apt update
+2026-04-09 11:23:53 sudo apt install -y kubectl
+2026-04-09 11:23:53 kubectl version --client
+2026-04-09 11:23:53 pwd
+2026-04-09 11:23:53 history 10
+2026-04-09 11:23:53 gcloud init
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd k8s
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cat deployment.yml
+2026-04-09 11:23:53 cat service.yml
+2026-04-09 11:23:53 cat service.yaml
+2026-04-09 11:23:53 cat deployment.yaml
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 pwd
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 gcloud init
+2026-04-09 11:23:53 gcloud auth login --no-launch-browser
+2026-04-09 11:23:53 gcloud container clusters create rag-cluster --zone asia-south1-c --num-nodes 2 --machine-type e2-medium
+2026-04-09 11:23:53 sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin -y
+2026-04-09 11:23:53 sudo apt-get install apt-transport-https ca-certificates gnupg curl -y
+2026-04-09 11:23:53 echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] \
+2026-04-09 11:23:53 https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee /etc/apt/sources.list.d/google-cloud-sdk.list
+2026-04-09 11:23:53 sudo apt-get update
+2026-04-09 11:23:53 sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin -y
+2026-04-09 11:23:53 sudo rm -f /etc/apt/sources.list.d/google-cloud-sdk.list
+2026-04-09 11:23:53 curl -fsSL https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg
+2026-04-09 11:23:53 echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] \
+2026-04-09 11:23:53 https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee /etc/apt/sources.list.d/google-cloud-sdk.list
+2026-04-09 11:23:53 sudo apt-get update
+2026-04-09 11:23:53 sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin -y
+2026-04-09 11:23:53 export USE_GKE_GCLOUD_AUTH_PLUGIN=True
+2026-04-09 11:23:53 gcloud container clusters get-credentials rag-cluster --zone asia-south1-c
+2026-04-09 11:23:53 kubectl get nodes
+2026-04-09 11:23:53 gcloud config get-value project
+2026-04-09 11:23:53 gcloud auth configure-docker
+2026-04-09 11:23:53 docker tag rag-app:latest gcr.io/project-78118c15-eaea-429a-a2f/rag-app:latest
+2026-04-09 11:23:53 docker images
+2026-04-09 11:23:53 docker tag mlops-rag-project-app:latest gcr.io/project-78118c15-eaea-429a-a2f/rag-app:latest
+2026-04-09 11:23:53 docker push gcr.io/project-78118c15-eaea-429a-a2f/rag-app:latest
+2026-04-09 11:23:53 gcloud artifacts repositories create rag-repo --repository-format=docker --location=asia-south1 --description="RAG app repo"
+2026-04-09 11:23:53 gcloud auth configure-docker asia-south1-docker.pkg.dev
+2026-04-09 11:23:53 docker tag mlops-rag-project-app:latest asia-south1-docker.pkg.dev/project-78118c15-eaea-429a-a2f/rag-repo/rag-app:latest
+2026-04-09 11:23:53 docker tag mlops-rag-project-app:latest asia-south1-docker.pkg.dev/project-78118c15-eaea-429a-a2f/rag-repo/rag-app:latest
+2026-04-09 11:23:53 vi k8s/app-deployment.yaml
+2026-04-09 11:23:53 vi k8s/deployment.yaml
+2026-04-09 11:23:53 cat k8s/deployment.yaml
+2026-04-09 11:23:53 vi k8s/deployment.yaml
+2026-04-09 11:23:53 kubectl apply -f k8s/
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl get services
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl get services
+2026-04-09 11:23:53 gcloud projects add-iam-policy-binding project-78118c15-eaea-429a-a2f --member="serviceAccount:$(gcloud compute instances describe $(hostname) --zone=asia-south1-c --format='value(serviceAccounts.email)')" --role="roles/artifactregistry.reader"
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 cd mlops-rag-project
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd k8s
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 mkdir db.yaml
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 vi k8s/db.yaml
+2026-04-09 11:23:53 cd ..
+2026-04-09 11:23:53 vi k8s/db.yaml
+2026-04-09 11:23:53 rm -rf k8s/db.yaml
+2026-04-09 11:23:53 vi k8s/db.yaml
+2026-04-09 11:23:53 kubectl apply -f k8s/db.yaml
+2026-04-09 11:23:53 kubectl get svc
+2026-04-09 11:23:53 kubectl delete pods --all
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl apply -f k8s/service.yaml
+2026-04-09 11:23:53 vi k8s/service.yaml
+2026-04-09 11:23:53 kubectl apply -f k8s/service.yaml
+2026-04-09 11:23:53 kubectl get svc
+2026-04-09 11:23:53 vi k8s/deployment.yaml
+2026-04-09 11:23:53 kubectl apply -f k8s/deployment.yaml
+2026-04-09 11:23:53 kubectl delete pods --all
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 vi k8s/deployment.yaml
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd mlops-rag-project
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 history 20
+2026-04-09 11:23:53 export USE_GKE_GCLOUD_AUTH_PLUGIN=True
+2026-04-09 11:23:53 gcloud container clusters get-credentials rag-cluster --zone asia-south1-c
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 gcloud artifacts docker images list asia-south1-docker.pkg.dev/project-78118c15-eaea-429a-a2f/rag-repo
+2026-04-09 11:23:53 docker push asia-south1-docker.pkg.dev/project-78118c15-eaea-429a-a2f/rag-repo/rag-app:latest
+2026-04-09 11:23:53 kubectl delete pods --all
+2026-04-09 11:23:53 kubectl apply -f k8s/
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl describe pod rag-app-55bcd694d6-zt489
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl logs rag-app-55bcd694d6-zt489
+2026-04-09 11:23:53 cat app/services/db.py
+2026-04-09 11:23:53 vi app/services/db.py
+2026-04-09 11:23:53 docker build -t mlops-rag-project-app:latest .
+2026-04-09 11:23:53 docker tag mlops-rag-project-app:latest asia-south1-docker.pkg.dev/project-78118c15-eaea-429a-a2f/rag-repo/rag-app:latest
+2026-04-09 11:23:53 docker push asia-south1-docker.pkg.dev/project-78118c15-eaea-429a-a2f/rag-repo/rag-app:latest
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 cd mlops-rag-project
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 cd mlops-rag-project
+2026-04-09 11:23:53 docker build -t mlops-rag-project-app:latest .
+2026-04-09 11:23:53 docker tag mlops-rag-project-app:latest asia-south1-docker.pkg.dev/project-78118c15-eaea-429a-a2f/rag-repo/rag-app:latest
+2026-04-09 11:23:53 docker push asia-south1-docker.pkg.dev/project-78118c15-eaea-429a-a2f/rag-repo/rag-app:latest
+2026-04-09 11:23:53 docker build -t mlops-rag-project-app:latest -f docker/Dockerfile .
+2026-04-09 11:23:53 cd docker
+2026-04-09 11:23:53 docker build -t mlops-rag-project-app:latest .
+2026-04-09 11:23:53 cd ..
+2026-04-09 11:23:53 docker tag mlops-rag-project-app:latest asia-south1-docker.pkg.dev/project-78118c15-eaea-429a-a2f/rag-repo/rag-app:latest
+2026-04-09 11:23:53 docker push asia-south1-docker.pkg.dev/project-78118c15-eaea-429a-a2f/rag-repo/rag-app:latest
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl logs rag-app-55bcd694d6-mq4vz
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl delete pods --all
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl delete pod rag-app-55bcd694d6-62w5t
+2026-04-09 11:23:53 kubectl get pods -w
+2026-04-09 11:23:53 vi app/services/db.py
+2026-04-09 11:23:53 docker build -t mlops-rag-project-app:latest -f docker/Dockerfile .
+2026-04-09 11:23:53 docker tag mlops-rag-project-app:latest asia-south1-docker.pkg.dev/project-78118c15-eaea-429a-a2f/rag-repo/rag-app:latest
+2026-04-09 11:23:53 docker push asia-south1-docker.pkg.dev/project-78118c15-eaea-429a-a2f/rag-repo/rag-app:latest
+2026-04-09 11:23:53 kubectl delete pods --all
+2026-04-09 11:23:53 kubectl apply -f k8s/
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl logs rag-app-55bcd694d6-rrr9j
+2026-04-09 11:23:53 kubectl get svc
+2026-04-09 11:23:53 vi k8s/db.yaml
+2026-04-09 11:23:53 kubectl logs -l app=rag-app
+2026-04-09 11:23:53 kubectl apply -f k8s/deployment.yaml
+2026-04-09 11:23:53 kubectl delete pods --all
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 kubectl get svc
+2026-04-09 11:23:53 vi k8s/deployment.yaml
+2026-04-09 11:23:53 rm k8s/deployment.yaml.swp
+2026-04-09 11:23:53 vi k8s/deployment.yaml
+2026-04-09 11:23:53 rm k8s/.deployment.yaml.swp
+2026-04-09 11:23:53 vi k8s/deployment.yaml
+2026-04-09 11:23:53 kubectl apply -f k8s/service.yaml
+2026-04-09 11:23:53 kubectl get svc -w
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 rm -rf venv
+2026-04-09 11:23:53 rm -rf __pycache__
+2026-04-09 11:23:53 rm -rf vectorstore/*
+2026-04-09 11:23:53 vi .gitignore
+2026-04-09 11:23:53 git init
+2026-04-09 11:23:53 git config --global init.defaultBranch main
+2026-04-09 11:23:53 git branch -m main
+2026-04-09 11:23:53 git init
+2026-04-09 11:23:53 git add .
+2026-04-09 11:23:53 git commit -m "Initial commit - RAG + FastAPI + Docker + Kubernetes"
+2026-04-09 11:23:53 git config --global user.name "Ashok"
+2026-04-09 11:23:53 git config --global user.email "your_email@gmail.com"
+2026-04-09 11:23:53 git commit -m "Initial commit - RAG + FastAPI + Docker + Kubernetes"
+2026-04-09 11:23:53 git config --list
+2026-04-09 11:23:53 git remote add origin https://github.com/damodaramt/rag-mlops-project.git
+2026-04-09 11:23:53 git push -u origin main
+2026-04-09 11:23:53 cd mlops-rag-project
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 vi k8s/deployment.yaml
+2026-04-09 11:23:53 git rm --cached k8s/deployment.yaml
+2026-04-09 11:23:53 git commit -m "Remove exposed API key"
+2026-04-09 11:23:53 git add k8s/deployment.yaml
+2026-04-09 11:23:53 git commit -m "Add secure config using Kubernetes secret"
+2026-04-09 11:23:53 kubectl create secret generic openai-secret --from-literal=api-key=your_new_api_key
+2026-04-09 11:23:53 echo ".env" >> .gitignore
+2026-04-09 11:23:53 echo "*.yaml.bak" >> .gitignore
+2026-04-09 11:23:53 git push origin main
+2026-04-09 11:23:53 git add k8s/deployment.yaml
+2026-04-09 11:23:53 git commit -m "Add secure deployment config"
+2026-04-09 11:23:53 git push -u origin main
+2026-04-09 11:23:53 git push -f origin main
+2026-04-09 11:23:53 git reset --soft HEAD~1
+2026-04-09 11:23:53 vi k8s/deployment.yaml
+2026-04-09 11:23:53 kubectl create secret generic openai-secret --from-literal=api-key=YOUR_NEW_API_KEY
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 git rm -r --cached k8s
+2026-04-09 11:23:53 git rm --cached .env
+2026-04-09 11:23:53 vi .gitignore
+2026-04-09 11:23:53 git add app docker nginx ingest.py requirements.txt README.md docker-compose.yml
+2026-04-09 11:23:53 git commit -m "Initial clean commit (without secrets & k8s)"
+2026-04-09 11:23:53 git push -f origin main
+2026-04-09 11:23:53 rm -rf .git
+2026-04-09 11:23:53 git init
+2026-04-09 11:23:53 git branch -m main
+2026-04-09 11:23:53 vi .gitignore
+2026-04-09 11:23:53 git add .
+2026-04-09 11:23:53 git commit -m "Clean initial commit (no secrets)"
+2026-04-09 11:23:53 git remote add origin https://github.com/damodaramt/rag-mlops-project.git
+2026-04-09 11:23:53 git push -f origin main
+2026-04-09 11:23:53 sudo poweroff
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 gcloud container clusters delete rag-cluster --zone asia-south1-c
+2026-04-09 11:23:53 sudo shutdown -h now
+2026-04-09 11:23:53 exit
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 mlops-rag-project/
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 gcloud container clusters list
+2026-04-09 11:23:53 gcloud container clusters create rag-cluster --zone asia-south1-c --num-nodes 2
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 history 15
+2026-04-09 11:23:53 gcloud container clusters list
+2026-04-09 11:23:53 gcloud container clusters get-credentials rag-cluster --zone asia-south1-c
+2026-04-09 11:23:53 gcloud container clusters list
+2026-04-09 11:23:53 gcloud config get-value project
+2026-04-09 11:23:53 docker build -t gcr.io/project-78118c15-eaea-429a-a2f/rag-app:latest .
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 cd ..
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 kubectl get hpa -w
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl get ingress
+2026-04-09 11:23:53 git add .
+2026-04-09 11:23:53 git commit -m "Final project screenshots and domain proof"
+2026-04-09 11:23:53 git push
+2026-04-09 11:23:53 ls k8s
+2026-04-09 11:23:53 ls screenshots
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 git rm -r --cached .env
+2026-04-09 11:23:53 git rm -r --cached vectorstore
+2026-04-09 11:23:53 cd screenshots
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 vi k8s/deployment.yaml
+2026-04-09 11:23:53 cat k8s/deployment.yaml
+2026-04-09 11:23:53 vi k8s/deployment.yaml
+2026-04-09 11:23:53 kubectl get svc
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl describe pod rag-app-dd64d5959-vwzsc
+2026-04-09 11:23:53 kubectl get secrets
+2026-04-09 11:23:53 kubectl rollout restart deployment rag-app
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl get secrets
+2026-04-09 11:23:53 kubectl rollout restart deployment rag-app
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl describe pod rag-app-6578ff99b9-dncwl
+2026-04-09 11:23:53 kubectl scale deployment rag-app --replicas=1
+2026-04-09 11:23:53 kubectl rollout restart deployment rag-app
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl delete pod rag-app-6578ff99b9-dncwl
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl rollout restart deployment rag-app
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl scale deployment rag-app --replicas=1
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl delete pod rag-app-8667dbd4d-59gpn
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 vi k8s/deployment.yaml
+2026-04-09 11:23:53 kubectl delete pod rag-app-8667dbd4d-59gpn
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl get rs
+2026-04-09 11:23:53 kubectl delete deployment rag-app
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl get rs
+2026-04-09 11:23:53 cat k8s/deployment.yaml
+2026-04-09 11:23:53 vi k8s/deployment.yaml
+2026-04-09 11:23:53 kubectl apply -f k8s/deployment.yaml
+2026-04-09 11:23:53 kubectl rollout restart deployment rag-app
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl get svc
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 kubectl get svc rag-app -o yaml
+2026-04-09 11:23:53 kubectl edit svc rag-app
+2026-04-09 11:23:53 kubectl get svc
+2026-04-09 11:23:53 kubectl get endpoints rag-app
+2026-04-09 11:23:53 kubectl get pods --show-labels
+2026-04-09 11:23:53 ---
+2026-04-09 11:23:53 ## 🎯 Learning Outcomes
+2026-04-09 11:23:53 - End-to-end MLOps pipeline implementation
+2026-04-09 11:23:53 - Kubernetes deployment and scaling
+2026-04-09 11:23:53 - Secure API key management
+2026-04-09 11:23:53 - Production-level AI application design
+2026-04-09 11:23:53 ---
+2026-04-09 11:23:53 ## 📌 Note
+2026-04-09 11:23:53 Sensitive data such as API keys and vector data are excluded for security purposes.
+2026-04-09 11:23:53 ---
+2026-04-09 11:23:53 ## ⭐ Future Improvements
+2026-04-09 11:23:53 - CI/CD pipeline (GitHub Actions)
+2026-04-09 11:23:53 - Monitoring (Prometheus + Grafana)
+2026-04-09 11:23:53 - Cloud SQL integration
+2026-04-09 11:23:53 kubectl rollout restart deployment rag-app
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl logs rag-app-869f7c4fb6-6ngf2
+2026-04-09 11:23:53 kubectl rollout restart deployment rag-app
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl get endpoints rag-app
+2026-04-09 11:23:53 vi .gitignore
+2026-04-09 11:23:53 git rm -r --cached .env
+2026-04-09 11:23:53 git rm -r --cached vectorstore
+2026-04-09 11:23:53 git rm -r --cached venv
+2026-04-09 11:23:53 mkdir screenshots
+2026-04-09 11:23:53 vi README.md
+2026-04-09 11:23:53 cat README.md
+2026-04-09 11:23:53 git add README.md
+2026-04-09 11:23:53 git commit -m "Final clean README for project"
+2026-04-09 11:23:53 git push
+2026-04-09 11:23:53 git push --set-upstream origin main
+2026-04-09 11:23:53 cat .gitignore
+2026-04-09 11:23:53 git add -f screenshots/
+2026-04-09 11:23:53 git commit -m "Added screenshots for project proof"
+2026-04-09 11:23:53 git push
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 Uvicorn running on http://0.0.0.0:8000 ✅
+2026-04-09 11:23:53 Uvicorn running on http://0.0.0.0:8000
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 kubectl rollout restart deployment rag-app
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl get endpoints rag-app
+2026-04-09 11:23:53 kubectl get deployment rag-app -o yaml | grep -i containerPort
+2026-04-09 11:23:53 kubectl edit deployment rag-app
+2026-04-09 11:23:53 vi k8s/deployment.yaml
+2026-04-09 11:23:53 cat k8s/deployment.yaml
+2026-04-09 11:23:53 vi k8s/deployment.yaml
+2026-04-09 11:23:53 kubectl apply -f k8s/deployment.yaml
+2026-04-09 11:23:53 kubectl rollout restart deployment rag-app
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl get endpoints rag-app
+2026-04-09 11:23:53 ping damodaram-ai.ddns.net
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/cloud/deploy.yaml
+2026-04-09 11:23:53 kubectl get pods -n ingress-nginx
+2026-04-09 11:23:53 kubectl apply -f https://github.com/cert-manager/cert-manager/releases/latest/download/cert-manager.yaml
+2026-04-09 11:23:53 kubectl get pods -n cert-manager
+2026-04-09 11:23:53 vi issuer.yaml
+2026-04-09 11:23:53 kubectl apply -f issuer.yaml
+2026-04-09 11:23:53 cat ingress.yaml
+2026-04-09 11:23:53 vi ingress.yaml
+2026-04-09 11:23:53 kubectl apply -f ingress.yaml
+2026-04-09 11:23:53 kubectl get ingress
+2026-04-09 11:23:53 kubectl get certificate
+2026-04-09 11:23:53 kubectl get ingress
+2026-04-09 11:23:53 kubectl get certificate
+2026-04-09 11:23:53 vi ingress.yaml
+2026-04-09 11:23:53 kubectl apply -f ingress.yaml
+2026-04-09 11:23:53 vi ingress.yaml
+2026-04-09 11:23:53 kubectl edit svc rag-app
+2026-04-09 11:23:53 kubectl get ingress
+2026-04-09 11:23:53 kubectl get ingresskubectl autoscale deployment rag-app --cpu-percent=50 --min=1 --max=3
+2026-04-09 11:23:53 kubectl autoscale deployment rag-app --cpu-percent=50 --min=1 --max=3
+2026-04-09 11:23:53 kubectl get hpa
+2026-04-09 11:23:53 kubectl run -i --tty load-generator --image=busybox /bin/sh
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 source venv/bin/activate
+2026-04-09 11:23:53 docker build -t gcr.io/project-78118c15-eaea-429a-a2f/rag-app:latest .
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 docker build -t gcr.io/project-78118c15-eaea-429a-a2f/rag-app:latest -f docker/Dockerfile .
+2026-04-09 11:23:53 ls docker
+2026-04-09 11:23:53 docker ps -a
+2026-04-09 11:23:53 docker push gcr.io/project-78118c15-eaea-429a-a2f/rag-app:latest
+2026-04-09 11:23:53 cd k8s
+2026-04-09 11:23:53 kubectl apply -f .
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl get secrets
+2026-04-09 11:23:53 kubectl rollout restart deployment rag-app
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 vi k8s/deployment.yaml
+2026-04-09 11:23:53 cd ..
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 kubectl rollout restart deployment rag-app
+2026-04-09 11:23:53 kubectl get pods
+2026-04-09 11:23:53 cd ..
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 vi .gitignore
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 ls
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 clear
+2026-04-09 11:23:53 cd mlops-rag-project/
+2026-04-09 11:23:53 ls -a
+2026-04-09 11:23:53 kubectl get svc
+2026-04-09 11:23:53 history 15
+2026-04-09 11:23:53 history 20
+2026-04-09 11:23:53 git add -f screenshots/
+2026-04-09 11:23:53 git commit -m "Added screenshots for project proof"
+2026-04-09 11:23:53 git push
+2026-04-09 11:23:53 sudo poweroff
+2026-04-09 11:23:57 ls -a
+2026-04-09 11:24:07 mlops-rag-project/
+2026-04-09 11:24:18 cd mlops-rag-project/
+2026-04-09 11:24:21 ls -a
+2026-04-09 11:24:25 clear
+2026-04-09 11:24:27 ls -a
+2026-04-09 11:24:32 history 200
+2026-04-09 11:24:48 history 300
+2026-04-09 11:28:58 history 350
+2026-04-09 11:30:49 history 500
+2026-04-09 11:31:34 history 700
+2026-04-09 11:40:56 export HISTTIMEFORMAT="%F %T "
+2026-04-09 11:40:56 export HISTSIZE=10000
+2026-04-09 11:40:56 export HISTFILESIZE=20000
+2026-04-09 11:40:56 shopt -s histappend
+2026-04-09 11:40:56 export PROMPT_COMMAND='history -a'
+2026-04-09 11:42:56 source ~/.bashrc
+2026-04-09 11:44:15 history | tail -900 > rag_commands.txt
+2026-04-09 11:44:24 awk '{$1=""; print substr($0,2)}' rag_commands.txt > rag_clean.txt
+2026-04-09 11:44:39 sudo apt update
+2026-04-09 11:44:50 sudo apt install pandoc -y
+2026-04-09 11:45:13 sudo apt install enscript ghostscript -y
+2026-04-09 11:45:33 sudo apt install aha wkhtmltopdf -y
+2026-04-09 11:46:57 vi export_history.sh
+2026-04-09 11:47:34 chmod +x export_history.sh
+2026-04-09 11:50:53 ./export_history.sh
+2026-04-09 11:51:34 sudo apt update
+2026-04-09 11:51:38 sudo apt install texlive-latex-base -y
+2026-04-09 11:52:57 ./export_history.sh
+2026-04-09 11:53:47 sudo apt update
+2026-04-09 11:53:52 sudo apt install texlive-latex-recommended texlive-latex-extra -y
+2026-04-09 11:55:11 sudo apt update
+2026-04-09 11:55:15 sudo apt install texlive-latex-recommended texlive-latex-extra -y
+2026-04-09 11:55:26 ./export_history.sh
+2026-04-09 11:55:55 ls -lh
+2026-04-09 11:58:22 history | tail -900 > rag_commands.txt

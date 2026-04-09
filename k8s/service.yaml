@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: rag-app
+
+spec:
+  type: LoadBalancer   # 🔥 THIS MAKES IT PUBLIC
+
+  selector:
+    app: rag-app
+
+  ports:
+    - port: 8000
+      targetPort: 8000

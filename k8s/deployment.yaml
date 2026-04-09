@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rag-app
+  labels:
+    app: rag-app
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: rag-app
+
+  template:
+    metadata:
+      labels:
+        app: rag-app
+
+    spec:
+      containers:
+        - name: rag-app
+          image: asia-south1-docker.pkg.dev/project-78118c15-eaea-429a-a2f/rag-repo/rag-app:latest
+          imagePullPolicy: Always
+
+          ports:
+            - containerPort: 8000
+
+          env:
+            - name: OPENAI_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: openai-secret
+                  key: api-key
+
+            - name: DATABASE_URL
+              value: "postgresql://postgres:postgres@db:5432/rag_db"
+
+          resources:
+            requests:
+              memory: "128Mi"
+              cpu: "100m"
+            limits:
+              memory: "512Mi"
+              cpu: "500m"
